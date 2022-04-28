@@ -7,7 +7,7 @@ import boto3
 from dotenv import load_dotenv
 from os import getenv
 
-load_dotenv('C:/Users/yurim/OneDrive/Documentos/How Bootcamp/API/.env')
+load_dotenv('API/.env')
 
 class DataTypeNotSupportedForIngestionException(Exception):
     def __init__(self, data):
